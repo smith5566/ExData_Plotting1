@@ -21,8 +21,7 @@ date_time <- strptime(date_time_char, "%d/%m/%Y %H:%M:%S") ##convert to date/tim
 
 ##format Global_active_power data for plotting
 plot_data <- as.numeric(as.character(sub_data$Global_active_power))
-plot2_data <- as.numeric(as.character(sub_data$Voltage))
-plot4_data <- as.numeric(as.character(sub_data$Global_reactive_power))
+
 
 ##format sub_metering data
 sub_met1 <- as.numeric(as.character(sub_data$Sub_metering_1))
